@@ -1,7 +1,7 @@
 [phases.install]
 onlyIncludeFiles = [
   ".npmrc",
-  ".yarn",
+  ".yarn/*",
   ".yarnrc.yml",
   "yarn.lock",
   "turbo.json",
