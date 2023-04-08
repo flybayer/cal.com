@@ -8,4 +8,7 @@ onlyIncludeFiles = [
   "turbo.json",
   "package.json", 
   "apps/web/package.json",
+  "apps/storybook/package.json",
+  "apps/swagger/package.json",
+  "apps/docs/package.json",
 ]
