@@ -9,6 +9,8 @@ onlyIncludeFiles = [
   "package.json", 
   "apps/web/package.json",
   "packages/config/package.json",
+  "packages/config/eslint-preset.js",
+  "packages/config/prettier-preset.js",
   "packages/eslint-plugin/package.json",
   "packages/core/package.json",
   "packages/ui/package.json",
