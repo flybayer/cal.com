@@ -22,4 +22,5 @@ onlyIncludeFiles = [
   "packages/features/package.json",
   "packages/prisma/package.json",
   "packages/app-store-cli/package.json",
+  "packages/app-store/package.json",
 ]
