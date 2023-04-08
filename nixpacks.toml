@@ -77,4 +77,7 @@ onlyIncludeFiles = [
   "packages/app-store/whatsapp/package.json",
   "packages/app-store/cron/package.json",
   "packages/app-store/zohocrm/package.json",
+  "packages/embeds/embed-snippet/package.json",
+  "packages/embeds/embed-react/package.json",
+  "packages/embeds/embed-core/package.json",
 ]
