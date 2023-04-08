@@ -4,4 +4,6 @@ onlyIncludeFiles = [
   "package.json", 
   "yarn.lock",
   "turbo.json",
+  ".yarn",
+  ".yarnrc.yml"
 ]
