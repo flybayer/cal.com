@@ -8,5 +8,15 @@ onlyIncludeFiles = [
   "turbo.json",
   "package.json", 
   "apps/web/package.json",
-  "packages/config/package.json"
+  "packages/config/package.json",
+  "packages/eslint-plugin/package.json",
+  "packages/ui/package.json",
+  "packages/types/package.json",
+  "packages/tsconfg/package.json",
+  "packages/trpc/package.json",
+  "packages/emails/package.json",
+  "packages/features/auth/package.json",
+  "packages/features/ee/package.json",
+  "packages/features/package.json",
+  "packages/prisma/package.json",
 ]
