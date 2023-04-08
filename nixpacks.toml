@@ -85,4 +85,5 @@ onlyIncludeFiles = [
   "packages/app-store-cli/src/build.ts",
   "packages/app-store-cli/src/constants.ts",
   "packages/app-store-cli/src/utils/getAppName.ts",
+  "packages/prisma/schema.prisma",
 ]
