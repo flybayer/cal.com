@@ -10,6 +10,7 @@ onlyIncludeFiles = [
   "apps/web/package.json",
   "packages/config/package.json",
   "packages/eslint-plugin/package.json",
+  "packages/core/package.json",
   "packages/ui/package.json",
   "packages/dayjs/package.json",
   "packages/lib/package.json",
