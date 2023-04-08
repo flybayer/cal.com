@@ -11,6 +11,8 @@ onlyIncludeFiles = [
   "packages/config/package.json",
   "packages/eslint-plugin/package.json",
   "packages/ui/package.json",
+  "packages/dayjs/package.json",
+  "packages/lib/package.json",
   "packages/types/package.json",
   "packages/tsconfig/package.json",
   "packages/trpc/package.json",
