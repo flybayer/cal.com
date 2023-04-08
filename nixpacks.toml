@@ -2,6 +2,7 @@
 onlyIncludeFiles = [
   ".npmrc",
   ".yarn/*",
+  ".yarn/releases/*",
   ".yarnrc.yml",
   "yarn.lock",
   "turbo.json",
