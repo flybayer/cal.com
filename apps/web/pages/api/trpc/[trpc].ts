@@ -54,6 +54,12 @@ export default trpcNext.createNextApiHandler({
       headers: {},
     };
 
+    console.logo({
+      vercelIpTimezone: ctx.req?.headers["x-vercel-ip-timezone"],
+      cf-viewer-tz-upcase: ctx.req?.headers["CloudFront-Viewer-Time-Zone"],
+      cf-viewer-tz-downcase: ctx.req?.headers["cloudFront-viewer-time-zone"],
+    })
+
     const timezone = z.string().safeParse(ctx.req?.headers["x-vercel-ip-timezone"] ?? ctx.req?.headers["CloudFront-Viewer-Time-Zone"]);
     if (timezone.success) defaultHeaders.headers["x-cal-timezone"] = timezone.data;
 
