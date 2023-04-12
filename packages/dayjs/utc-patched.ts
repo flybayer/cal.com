@@ -1,4 +1,5 @@
-import { MIN, MS } from '../../constant'
+const MS = 'millisecond'
+const MIN = 'minute'
 
 const typeToPos = {
   year: 0,
