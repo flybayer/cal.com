@@ -54,7 +54,7 @@ export default trpcNext.createNextApiHandler({
       headers: {},
     };
 
-    console.logo({
+    console.log({
       vercelIpTimezone: ctx.req?.headers["x-vercel-ip-timezone"],
       'cf-viewer-tz-upcase': ctx.req?.headers["CloudFront-Viewer-Time-Zone"],
       'cf-viewer-tz-downcase': ctx.req?.headers["cloudFront-viewer-time-zone"],
