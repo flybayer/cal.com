@@ -62,7 +62,7 @@ const middleware: NextMiddleware = async (req) => {
 
   if (url.pathname.startsWith("/api/trpc/")) {
     const requestHeaders = new Headers(req.headers);
-    requestHeaders.set("x-cal-timezone", req.headers.get("x-vercel-ip-timezone") ?? "");
+    requestHeaders.set("x-cal-timezone", req.headers.get("x-vercel-ip-timezone") ?? req.headers.get('CloudFront-Viewer-Time-Zone') ?? "");
     return NextResponse.next({
       request: {
         headers: requestHeaders,

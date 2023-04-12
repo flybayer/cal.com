@@ -54,7 +54,7 @@ export default trpcNext.createNextApiHandler({
       headers: {},
     };
 
-    const timezone = z.string().safeParse(ctx.req?.headers["x-vercel-ip-timezone"]);
+    const timezone = z.string().safeParse(ctx.req?.headers["x-vercel-ip-timezone"] ?? ctx.req?.headers["CloudFront-Viewer-Time-Zone"]);
     if (timezone.success) defaultHeaders.headers["x-cal-timezone"] = timezone.data;
 
     // We need all these conditions to be true to set cache headers
