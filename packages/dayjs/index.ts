@@ -9,7 +9,7 @@ import minmax from "dayjs/plugin/minMax";
 import relativeTime from "dayjs/plugin/relativeTime";
 import timeZone from "dayjs/plugin/timezone";
 import toArray from "dayjs/plugin/toArray";
-import utc from "dayjs/plugin/utc";
+import utc from "./utc-patched";
 
 dayjs.extend(customParseFormat);
 dayjs.extend(dayjsBusinessTime);
